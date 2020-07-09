@@ -163,7 +163,6 @@ def lisensi():
 	login()
 ####login#########
 def login():
-	os.system('clear')
 	def tokenz():
 	os.system('clear')
 	print logo
