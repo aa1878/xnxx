@@ -164,7 +164,6 @@ def lisensi():
 ####login#########
 def login():
 	def tokenz():
-	os.system('clear')
 	print logo
 	toket = raw_input("[+] Token : Masukan Toket Gedemu Disini >> ")
 	try:
