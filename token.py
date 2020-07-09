@@ -164,7 +164,6 @@ def lisensi():
 ####login#########
 def login():
 	def tokenz():
-	print logo
 	toket = raw_input("[+] Token : Masukan Toket Gedemu Disini >> ")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
